@@ -32,11 +32,20 @@
 <br>      
 
 ### :memo: 맡은 파트  
-:closed_book: 권기현  : 회원가입, 회원탈퇴 / 마이페이지 / 관리자 페이지 / 공지사항(CRUD)   
-:green_book: **김미경** :sparkles:  : 입양게시판(CRUD) / 입양 신청
-:blue_book: 김수진 : 문의사항(CRUD) / 게시판 페이징      
-:orange_book: 이서영 : 봉사(CRUD) / 댓글(CRUD)   
-:ledger: 이수진  : 로그인 / 로그아웃 / 아이디, 비밀번호 찾기 / 24시 동물병원 조회 / 후원하기   
+:closed_book: 권기현
+* 회원가입, 회원탈퇴 / 마이페이지 / 관리자 페이지 / 공지사항(CRUD)   
+<br>
+:green_book: **김미경** :sparkles:
+* 입양게시판(CRUD) / 입양 신청
+<br>
+:blue_book: 김수진 
+* 문의사항(CRUD) / 게시판 페이징      
+<br>
+:orange_book: 이서영 
+* 봉사(CRUD) / 댓글(CRUD)   
+<br>
+:ledger: 이수진
+* 로그인 / 로그아웃 / 아이디, 비밀번호 찾기 / 24시 동물병원 조회 / 후원하기   
 <br>
 
 ### :computer: 화면 일부   
@@ -44,26 +53,26 @@
 ![AdoptList](https://github.com/ssd256/TCHD/blob/master/images/AdoptList.PNG)
 
 * 입양 가능한 동물들은 볼 수 있습니다. 입양이 완료된 동물들은 목록에서 제외됩니다.
-
+<br>
 
 
 ![AdoptInsert](https://github.com/ssd256/TCHD/blob/master/images/AdoptInsert.PNG)
 
-* 로그인을 한 회원이라면 누구나 입양동물을 등록할 수 있습니다. *표시가 붙은 항목을 모두 입력해야 등록이 가능합니다.
-
+* 로그인을 한 회원이라면 누구나 입양동물을 등록할 수 있습니다. *표시가 붙은 항목을 모두 입력해야 등록이 가능합니다. 
+<br>
 
 
 ![AdoptUpdate](https://github.com/ssd256/TCHD/blob/master/images/AdoptUpdate.PNG)
 
 * 등록한 입양동물의 정보 중 *표시가 붙은 항목에 대해서 수정할 수 있습니다.
-
+<br>
 
 
 ![AdoptDetail](https://github.com/ssd256/TCHD/blob/master/images/AdoptDetail.PNG)
 
 * 입양 가능한 동물의 상세정보를 확인할 수 있습니다. 입양하기를 누르면 입양 신청 페이지로 전환됩니다. 
 * 입양 동물을 등록한 사용자의 경우 수정하기와 삭제하기 버튼이 활성화 됩니다.
-
+<br>
 
 
 ![AdoptApply](https://github.com/ssd256/TCHD/blob/master/images/AdoptApply.PNG)
@@ -71,3 +80,4 @@
 ![AdoptApply_agree](https://github.com/ssd256/TCHD/blob/master/images/AdoptApply_agree.PNG)
 
 * 모든 항목을 작성하고 입양 동의를 체크하면 입양이 완료됩니다. 각 항목의 글자 수는 300자를 넘길 수 없습니다.
+<br>
