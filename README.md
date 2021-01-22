@@ -35,17 +35,17 @@
 :closed_book: 권기현
 * 회원가입, 회원탈퇴 / 마이페이지 / 관리자 페이지 / 공지사항(CRUD)   
 <br>
-:green_book: **김미경** :sparkles:
-* 입양게시판(CRUD) / 입양 신청
+:green_book: **김미경** :sparkles:   
+* 입양게시판(CRUD) / 입양 신청   
 <br>
-:blue_book: 김수진 
-* 문의사항(CRUD) / 게시판 페이징      
+:blue_book: 김수진    
+* 문의사항(CRUD) / 게시판 페이징       
 <br>
-:orange_book: 이서영 
-* 봉사(CRUD) / 댓글(CRUD)   
+:orange_book: 이서영    
+* 봉사(CRUD) / 댓글(CRUD)     
 <br>
-:ledger: 이수진
-* 로그인 / 로그아웃 / 아이디, 비밀번호 찾기 / 24시 동물병원 조회 / 후원하기   
+:ledger: 이수진   
+* 로그인 / 로그아웃 / 아이디, 비밀번호 찾기 / 24시 동물병원 조회 / 후원하기      
 <br>
 
 ### :computer: 화면 일부   
