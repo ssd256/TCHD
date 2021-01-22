@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+/* 메뉴 이름(공지사항) */
+#ment {
+	font-size: 30px;
+	font-weight: bold;
+	margin: 30px 30px 20px 30px;
+	text-decoration: underline;
+	text-decoration-color: rgb(41, 128, 185);
+}
+
+#search_div {
+	margin: 0px 150px;
+	text-align: right;
+}
+
+#search_input {
+	width: 200px;
+	height: 28px;
+	border-radius: 3px;
+	border: 1px solid black;
+}
+
+#search_button {
+	width: 50px;
+	height: 30px;
+	border-radius: 5px;
+	border: none;
+	background: rgb(41, 128, 185);
+	color: white;
+}
+
+#notice_list_div {
+	margin: 20px auto 0px auto;
+}
+
+#notice_list_table {
+	width: 1000px;
+	text-align: center;
+	margin: 0px auto;
+	border-collapse: collapse;
+	    font-size: 14px;
+}
+
+#notice_list_table th {
+	border-top: 3px solid rgb(41, 128, 185);
+	border-bottom: 1px solid #ccc;
+	padding: 10px;
+}
+
+#notice_list_table td {
+	border-bottom: 1px solid #ccc;
+	padding: 10px;
+}
+
+.tit {
+	text-align: left;
+}
+
+#wrtie_button_div {
+	text-align: right;
+	margin: 10px 150px 60px 150px;
+}
+
+#write_button {
+	width: 60px;
+	height: 35px;
+	background: rgb(41, 128, 185);
+	color: white;
+	cursor: pointer;
+	border: none;
+	border-radius: 5px;
+}
+
+.paging {
+	margin: 20px 20px 40px 20px;
+	text-align: center;
+	font-size: 0;
+}
+
+.paging a {
+	display: inline-block;
+	margin-left: 10px;
+	padding: 5px 10px;
+	border-radius: 100px;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.paging a:first-child {
+	margin-left: 0;
+}
+
+.paging a.bt {
+	border: 1px solid #eee;
+	background: #eee;
+}
+
+.paging a.num {
+	border: 1px solid rgb(41, 128, 185);
+	font-weight: 600;
+	color: rgb(41, 128, 185);
+}
+
+.paging a.num.on {
+	background: rgb(41, 128, 185);
+	color: #fff;
+}

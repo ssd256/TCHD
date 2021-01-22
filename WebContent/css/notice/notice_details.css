@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+/* 메뉴 이름(공지사항) */
+#ment {
+	font-size: 30px;
+	font-weight: bold;
+	margin: 30px 30px 70px 30px;
+	text-decoration: underline;
+	text-decoration-color: rgb(41, 128, 185);
+}
+
+#details_div {
+	margin: 30px 150px;
+}
+
+#writer_info {
+	margin-top: 10px;
+}
+
+#img_div {
+	padding: 50px 0px;
+}
+
+#img_div img {
+	width: 1000px;
+}
+
+#contents_div {
+	border: 1px solid black;
+	width: 1000px;
+	margin-top: 30px;
+}
+
+#contents {
+	
+	font-size:17px;
+    border: none;
+    border-radius: 3px;
+    padding: 0px 20px 50px 20px;
+
+
+/* 	resize: none; 사이즈 조절 못하게
+	border: none;
+	border-radius: 3px;
+	text-overflow: ellipsis; */
+	/* text가 textarea의 크기보다 길면 스크롤이 생기게 (길지 않으면 스크롤 안보임) */
+}
+
+#button_div {
+	margin: 30px auto;
+	width: 1000px;
+	/* text-align: right; */
+}
+
+#list_view_button {
+	width: 60px;
+	height: 35px;
+	border-radius: 5px;
+	border: none;
+	background: rgb(41, 128, 185);
+	color: white;
+	left: 45%;
+	position: relative;
+}
+
+#edit_button {
+	width: 60px;
+	height: 35px;
+	border-radius: 5px;
+	border: none;
+	background: rgb(41, 128, 185);
+	color: white;
+	  position: relative;
+      left: 815px;
+}

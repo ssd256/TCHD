@@ -1,0 +1,194 @@
+@charset "UTF-8";
+	/* 게시판 이름 */
+	#ment{
+		font-size: 30px;
+		font-weight: bold;
+		width: 100%;
+		margin: 30px;
+		text-decoration: underline;
+		text-decoration-color: rgb(41, 128, 185); 
+	}
+	
+	/* 입양신청 안내문구 */
+	#info{
+		font-size: 18px;
+		text-align: center;
+		line-height: 35px;
+	}
+	
+	#info p{
+		width: 50%;
+		height: 60px;
+		margin: 0px 0px 0px 30%; 
+	}
+	
+	#petImg{			/* 안내문구 이미지 */
+		margin: -20px 0px 0px 100px;
+		width: 200px;
+		height: 150px;
+	}
+	
+	#info > hr{
+		margin: 15px 0px 15px 0px;
+	}
+	
+	
+	/* 입양신청서 작성 영역*/
+	#ment2{
+		width: 100%;
+		margin: 20px;
+		font-size: 30px;
+		font-weight: bold;
+		text-align: center;
+		color: rgb(41, 128, 185);
+	}
+	
+	#infoBox{			/* 입양신청서 작성 안내문구 */
+		border: 2px solid black;
+		width: 70%;
+		margin: 0px 0px 0px 18%;
+		padding: 20px 0px 20px 30px;
+		border-color: rgb(41, 128, 185);
+		border-radius: 10px;	
+	}
+	
+	#firstInfo > li{	/* 입양신청서 작성 안내문구 내용 */
+		list-style: none;
+		margin: 10px;
+	}
+	
+	#infoTitle{			/* 숙지 사항 */
+		font-weight: bold;
+		font-size: 20px;
+	}
+	
+	.info{				/* 숙지 내용 */
+		line-height: 30px;
+	}
+	
+	#secondBox{			/* 두번째 숙지 내용 영역 */
+		margin: 0px 0px 0px 25px;
+	}
+	
+	#secondIfo > li{	/* 두번째 숙지 내용 문구 */
+		margin: 0px 0px 0px 10px;
+	}
+	
+	
+	/* 신청서 정보 입력 영역 */
+	#apply{	
+		width: 70%;
+		margin: 20px 0px 0px 18%;
+	}
+	
+	#apply > ol{
+		margin: 0px 0px 10px 0px;
+	}
+	
+	
+	/* 일반 정보  */
+	#infoTable{
+		margin: 0px 0px 20px 0px;
+		font-size: 15px;
+	}
+	
+	#infoTable .privteInfo{
+		width: 80px; 
+		height: 40px;
+ 		padding: 0px 0px 0px 10px;
+	}
+	
+	#infoTable .private input{		/* 일반 정보 입력 칸 */
+		width: 280px;
+		height: 20px;
+		font-size: 15px; 
+		padding: 10px;
+	}
+
+	
+	/* 입양 동기 */
+	#asking li{
+		margin: 0px 0px 20px 0px;
+	}
+	
+	
+	/* 앞으로의 다짐 */
+	#promise li{
+		margin: 0px 0px 20px 0px;
+	}
+	
+	
+	/* 답변 입력 칸 영역*/
+	#apply .write{			/* 답변 문구-입력 칸 간격 */
+		margin: 0px 0px 30px 0px;
+	}
+	
+	.write textarea{				/* 답변 입력 칸 --> 300자로 제한*/
+		margin: 15px 0px 0px 0px;
+		padding: 10px;
+		width: 800px;
+		height: 150px;
+		text-overflow:ellipsis;
+		font-size: 15px;
+		resize: none;
+	}
+	
+	
+	/* 일반정보, 입양동기, 앞으로의 다짐 */
+	.applyList li{
+		margin: 50px 0px 0px 0px;
+		font-size: 16px;
+		font-weight: bold;
+	}
+	
+	
+	/* 입양 동의 부분 */
+	#privateAgree{
+		border: 1px solid black;
+		width: 800px;
+		height: 200px;
+		margin: 0px 0px 10px 0%;
+		padding: 5px;
+		text-overflow:ellipsis;
+		resize: none;
+	}
+	
+	
+	
+	/* 마지막 멘트 */
+	P{		
+		margin: 60px;
+		font-size: 17px;
+		font-weight: bold;
+		text-align: center;
+	}
+
+		
+	/* 취소, 확인버튼 영역*/
+	#buttons{
+		margin: 20px 0px 20px 45%;
+	}
+	
+	.applyButton{			/* 취소, 확인버튼 */
+		margin: 0px 50px 30px 0px;
+		width: 80px;
+		height: 30px;
+		font-size: 18px;
+		font-weight: bold;
+		text-aligh: center;
+		color: white;
+		border: 0px;
+		border-radius: 5px;
+	}
+	
+	#cancel, #okay:hover{
+		cursor: pointer;
+	}
+		
+	#cancel{
+		background-color: lightgray;
+	}
+	
+	#okay{
+		background-color: skyblue;
+	}

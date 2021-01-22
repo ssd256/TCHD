@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+/* 마이페이지 비밀번호 입력페이지*/
+#confirmPwForm{
+	background-color: rgb(224, 224, 224);
+	padding: 70px 100px 70px 100px;
+	position: relative;
+	margin: 0px 0px 181px 350px;
+	font-size: 20px;
+	width: 500px;
+	text-align: center;
+	border-top: 3px solid rgb(41, 128, 185);
+	border-radius: 10px;
+}
+#confirmPwForm input{
+	margin: 50px 0 30px 20px;
+	width: 180px;
+	height: 16px;
+	padding: 6px 12px;
+	border-style: none;
+}
+
+#confirmPwForm input:focus{
+	border: none;
+	outline: 2px solid rgba(41, 128, 185, 0.5);
+}
+
+#confirmPwForm button{
+	width: 100px;
+	height: 40px;
+	background-color:rgba(41, 128, 185, 0.8);
+	border-radius: 10px;
+	color: rgb(255,255,255);
+	font-size: 16px;
+	border-style: none;
+	margin-top: 50px;
+}
+/* 회원가입 완료 페이지*/
+
+#joinCompleteDiv{
+	background-color: rgb(224, 224, 224);
+	padding: 70px 100px 70px 100px;
+	margin: 70px auto 185px;
+	font-size: 20px;
+	width: 500px;
+	text-align: center;
+	border-top: 3px solid rgb(41, 128, 185);
+	border-radius: 10px;
+}
+#joinCompleteDiv p{
+	margin: 30px 0;
+	font-size: 16px;
+	
+}
+
+#joinCompleteDiv #p1{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#joinCompleteDiv button{
+	width: 100px;
+	height: 40px;
+	background-color: rgb(52, 152, 219);
+	color: rgb(255,255,255);
+	font-size: 16px;
+	border-style: none;
+	margin-top: 30px;
+}
+

@@ -1,0 +1,129 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+   #ment{
+      font-size: 30px;
+      font-weight: bold;
+      margin: 30px auto;   /* 위, 오른쪽, 아래, 왼쪽 */
+      text-decoration: underline;
+ 	   text-decoration-color: rgb(41, 128, 185); /*글자아래 밑줄*/
+   }   
+
+    
+table {
+    border-collapse: collapse;
+}
+
+caption {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.board_list_wrap {
+      /* padding: 50px; */
+}
+
+#wrtie_button_div{
+      text-align: right;
+      margin: 10px 150px 60px 150px;
+   }
+   
+   #write_button{
+      width: 60px;
+      height: 35px;
+      background: rgb(41, 128, 185);
+      color: white;
+      cursor: pointer;
+      border: none;
+      border-radius: 5px;
+   }
+
+
+.board_list {
+    width: 1000px;
+    border-top: 3px solid rgb(41, 128, 185);
+    /* margin : 60px auto; */
+    /* margin-top: 70px; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    margin: 40px auto 0px auto;
+}
+.board_list tr {
+    border-bottom: 1px solid #ccc;
+}
+
+.board_list th,
+.board_list td {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.board_list td {
+    text-align: center;
+}
+
+.td_cate{
+	width: 400px;
+}
+
+ .board_list_wrap{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0;
+}
+ .board_list_wrap {
+    display: inline-block;
+    margin-left: 10px;
+    /* padding: 5px 10px; */
+    border-radius: 100px;
+    font-size: 12px;
+}
+ .board_list_wrap {
+    margin-left: 0;
+}
+
+.paging {
+    margin: 20px 20px 40px 20px;
+    text-align: center;
+    font-size: 0;
+}
+   .paging a{
+      display: inline-block;
+      margin-left: 10px;
+      padding: 5px 10px;
+      border-radius: 100px;
+      font-size: 12px;
+      text-decoration: none;
+   }
+
+   .paging a.bt{
+      border: 1px solid #eee;
+      background: #eee;
+   }
+   .paging a.num{
+      border: 1px solid rgb(41, 128, 185);
+      font-weight: 600; 
+      color: rgb(41, 128, 185);
+   }
+   .paging a.num.on{
+      background: rgb(41, 128, 185);
+      color: #fff;
+   }
+
+.tit {
+    text-align: left;
+}
+
+.tit:hover {
+    text-decoration: underline;
+}
+
+	.swal-btn{
+		text-align : center;
+	}

@@ -1,0 +1,225 @@
+@charset "UTF-8";
+	/* 게시판 이름 */
+	#ment{
+		font-size: 30px;
+		font-weight: bold;
+		width: 100%;
+		margin: 30px;
+		text-decoration: underline;
+		text-decoration-color: rgb(41, 128, 185); 
+	}
+	
+	/* 전체 영역 */
+		#area{
+		width: 80%;
+		height: 600px;
+		background-color: #eee;
+		margin: 0px auto;
+		padding: 40px 40px 80px 70px;
+		border-radius: 10px;
+		border-top: 3px solid rgb(41, 128, 185);
+	}
+
+	/* 사진 첨부하는 영역 */
+	#pictureTable{
+		font-size: 18px;
+	}
+	
+	/* 첨부파일 테두리 */
+	.pictureArea{			
+		border: 2px dashed darkgray;
+	}
+	
+	/* 첨부파일 위에서 마우스 커서 바꾸기 */
+	#titleImgArea:hover, 
+	#contentImgArea1:hover, 
+	#contentImgArea2:hover, 
+	#contentImgArea3:hover {
+		cursor:pointer;
+	}
+	
+	/* 썸네일과 일반 사진 간격 조절칸 */
+	#space1{
+		width: 30px; height: 100px;
+	}
+	
+	#space2{
+		width: 50px; height: 100px;
+	}
+	
+	#space3{
+		width: 30px; height: 100px;
+	}
+	
+	#titleImg{
+		width: 350px; height: 200px;
+	}
+	
+	#contentImg1, #contentImg2, #contentImg3{
+		width: 120px; height: 100px;
+	}
+	
+	/* 구분 선택하는 영역 */
+	
+	table span{		/* '*' 글자 모두 빨간색 */
+		color: red;
+	}
+	
+	#firstTable{
+		margin: 15px 0px 15px 0px;
+	}
+	
+	#firstTable td{
+		height: 60px;
+	}
+	
+	#firstTable .firstTd{
+		width: 55px;
+		padding: 0px 0px 0px 10px;
+		font-size: 18px;
+		font-weight: bold;
+	}
+	
+	#firstTable .secondTd{
+		padding: 0px 0px 0px 10px; 
+	}
+	
+	#firstTable #kindTd{	/* 개, 고양이 선택 */
+		width: 120px;
+	}
+	
+	#firstTable #genderTd{		/* 성별 선택 */
+		width: 200px;
+	}
+	
+	#firstTable #sizeTd{	/* 크기 선택 */
+		width: 120px;
+	}
+	
+	#sizeTd select{			/* 크기 옵션 */
+		width: 100px;
+		height: 30px;
+		border-radius: 5px;
+	}
+		
+	#firstTable #ageTd{		/* 나이 선택 */
+		width: 160px;
+		
+	}
+	
+	#ageTd select{
+		width: 150px;		/* 나이 옵션 */
+		height: 30px;
+		border-radius: 5px;
+	}
+	
+	#ageDetail{				/* 상세 나이 텍스트 칸 */
+		resize: none;
+	    width: 50px;
+	    height: 30px;
+	    padding: 0px 0px 0px 5px;
+	}
+	
+	#ageTd2 select{		/* 상세 나이 옵션 */
+		height: 30px;
+		border-radius: 5px;
+	}
+
+	
+	/* 질문 적는 영역 */
+	
+	.answer{		/* 답변 적는 칸 */
+		resize: none;
+		width: 200px;
+		height: 30px;
+		padding: 0px 0px 0px 5px;
+	}
+	
+	.tables{
+		width: 50%;
+		float: left;
+		margin: 0px 0px 10px 0px;
+	}
+	
+	#secondTable .firstTd{		/* 첫번째 정보 입력 영역 */
+		width: 120px;
+		padding: 0px 0px 0px 15px;
+		font-size: 18px;
+		font-weight: bold;
+	}
+	
+	#secondTable .secondTd{
+		height: 60px;
+	}
+	
+	#thirdTable .firstTd{	/* 두번째 정보 입력 영역 */
+		width: 120px;
+		padding: 0px 0px 0px 15px;
+		font-size: 18px;
+		font-weight: bold;
+	}
+	
+	#thirdTable .secondTd{
+		height: 60px;
+	}
+	
+	/* 연락처 */
+	#phone{
+		background: lightgray;
+	}
+	
+	/* 하고 싶은 말 */
+	
+	#last{		
+		clear:both;				
+		width: 100%;
+		height: 100px;
+		padding: 0px 0px 0px 20px;
+	}
+	
+	#last div{			/* 하고 싶은 말 */
+		margin: 0px 0px 20px 0px;
+		width: 110px;
+		font-weight: bold;
+		float: left;
+	}
+	
+	#lastAnswer{		/* 하고 싶은 말 텍스트 상자 */
+		width: 800px;
+		height: 70px;
+		resize: none;
+		text-overflow: ellipsis;
+		margin: 0px 0px 0px 7px;
+		padding: 10px;
+	}
+	
+	
+	/* 취소, 확인 버튼 */
+	
+	#buttonArea{		/* div 안의 들어가는 태그는 텍스트로 봄!! */
+		width: 100%;
+		text-align: center;
+		margin: 20px;
+	}
+	
+	.buttons{
+		width: 80px;
+		height: 40px;
+		border-radius: 5px;
+		border: 0px;
+		color: white;
+		font-weight: bold;
+	}
+	
+	#cancelButton, #okButton:hover{
+		cursor: pointer;
+	}
+	
+	#cancelButton{
+		background-color: lightgray;
+		margin: 0px 30px 0px 0px;
+	}
+	
+	#okButton{
+		background-color: rgb(41, 128, 185);
+	}

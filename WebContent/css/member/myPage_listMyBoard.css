@@ -1,0 +1,283 @@
+@charset "UTF-8";
+/* 내가 작성한 글 */
+#listMyBoardDiv{
+	
+	width: 800px;
+    height: 650px;
+	text-align: center;
+	margin-left: 350px;
+}
+#listMyBoardTitle{
+	font-size: 25px;
+	color: #333333;
+	font-weight: bold;
+	position: relative;
+	text-align: left;
+	margin-bottom: 20px;
+}
+#selectMyBoard a{
+	margin: 0px 10px;
+	text-decoration: none;
+}
+
+#selectMyBoard a:visit{
+	text-decoration: none;
+	color: #333333;
+}
+
+#selectMyBoard a:link{
+	text-decoration: none;
+	color: #333333;
+}
+
+#selectMyBoard a:hover{
+	text-decoration: underline;
+	color: #333333;
+}
+
+#tableMyBoard table{
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 30px;
+	font-size: 14px;
+	text-align: center;
+
+}
+
+#tableMyBoard  td, th{
+	border-bottom: 1px solid #ccc;
+	padding: 3px 20px 3px 20px;
+	height: 30px;
+	
+}
+#tableMyBoard  th{
+	background: #eaeaea;
+	border-top: 3px solid rgb(41, 128, 185);
+
+}
+#tableMyBoard  td{
+	text-align:center;	
+	overflow: hidden;
+	
+}
+
+
+#tableMyBoard th:first-child{
+	width:80px;
+
+}
+
+#tableMyBoard th:last-child{
+	width: 100px;
+}
+
+#tableMyBoard  td.volTitle{
+	text-align: left;
+}
+
+.boardTr .board2ndTd:hover{		
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#popUpDiv {
+	border:1px solid black;
+	width:320px;
+	height: 300px;
+	display: none;
+	background-color: #f0f0f5;
+	top: 40%;
+    left: 40%;
+    position: absolute;
+    padding: 20px 20px;
+    text-align: center;
+    border-radius: 6px;
+    border-style: none;
+}
+#popUpTitle,#popUpDate {
+	text-align: left;
+	height: 50px;
+	width:100%;
+	font-size: 14px;
+	
+}
+
+#popUpContent{
+	text-align: left;
+	height: 190px;
+	width:100%;
+	font-size: 18px;
+	color: #333;
+}
+
+
+
+#popUpDiv button{
+	width: 100px;
+	height: 40px;
+	background-color: rgb(41, 128, 185);
+	color: rgb(255,255,255);
+	font-size: 16px;
+	border-style: none;
+	margin-top:10px;
+}
+
+#buttonTd button{
+	width: 60px;
+	height: 30px;
+	background-color: rgb(41, 128, 185);
+	color: rgb(255,255,255);
+	font-size: 14px;
+	border-style: none;
+}
+td#buttonTd{
+	text-align: center;
+}
+/* 관리자 페이지 대기중인 문의사항 답글 팝업창 */
+
+#popUpDiv_QA {
+	border:1px solid black;
+	width:320px;
+	display: none;
+	background-color: #f0f0f5;
+	top: 30%;
+    left: 40%;
+    position: absolute;
+    padding: 20px 20px;
+    text-align: center;
+    border-radius: 6px;
+    border-style: none;
+}
+#popUpTitle_QA,#popUpWriter_QA,#popUpDate_QA {
+	text-align: left;
+	height: 50px;
+	width:100%;
+	font-size: 14px;
+	
+}
+
+#popUpContent_QA{
+	text-align: left;
+	height: 150px;
+	width:100%;
+	font-size: 18px;
+	color: #333;
+}
+#popUpDiv_QA p{
+	font-weight: bold;	
+}
+
+
+#popUpDiv_QA button{
+	width: 100px;
+	height: 40px;
+	background-color: rgb(41, 128, 185);
+	color: rgb(255,255,255);
+	font-size: 16px;
+	border-style: none;
+	margin-top:10px;
+	margin-left: 10px;
+}
+
+#popUpAnswer_QA{
+	text-align: left;
+}
+
+#popUpAnswer_QA textarea{
+    width: 314px;
+    height: 127px;
+    resize: none;
+    padding: 5px;
+}
+
+/* 후원관리 기간검색 div */
+
+#selectOptionDiv{
+	text-align:left;
+}
+
+#selectOptionDiv select{
+	width: 80px;
+	height: 30px;
+	padding: 5px;
+	border-radius: 5px;
+	text-align: center;+.
+}
+#selectOptionDiv #month{
+	margin-left: 20px;
+}
+
+#selectOptionDiv button{
+	width: 68px;
+    height: 30px;
+    background-color: rgb(41, 128, 185);
+    color: rgb(255,255,255);
+    font-size: 16px;
+    border-style: none;
+    margin-left: 10px;
+}
+
+#totalPrice td{
+	text-align: right;
+	font-size: 20px;
+	text-align: right;
+	margin-bottom: 30px;
+	padding-right: 20px;
+}
+
+
+#totalPrice span{
+	font-size: 20px;
+	font-weight: 600;
+	color: rgb(41, 128, 185);
+}
+
+#totalPrice span#totalSpan{
+	margin-right: 10px;
+	color: #333333;
+}
+/* 수진쓰 페이징*/
+ .paging {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0;
+}
+.paging a {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 5px 10px;
+    border-radius: 100px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.paging a:link{
+	text-decoration: none;
+}
+
+.paging a:visit{
+	text-decoration: none;
+}
+.paging a:link{
+	text-decoration: none;
+}
+
+.paging a:first-child {
+    margin-left: 0;
+}
+
+ .paging a.bt {
+    border: 1px solid #eee;
+    background: #eee;
+}
+
+ .paging a.num {
+    border: 1px solid rgb(41, 128, 185);
+    font-weight: 600; 
+    color: rgb(41, 128, 185);
+}
+
+ .paging a.num.on {
+    background: rgb(41, 128, 185);
+    color: #fff;
+}

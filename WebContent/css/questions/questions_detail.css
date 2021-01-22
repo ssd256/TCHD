@@ -1,0 +1,253 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+   #ment{
+      font-size: 30px;
+      font-weight: bold;
+      margin: 30px 30px 70px 30px;   /* 위, 오른쪽, 아래, 왼쪽 */
+      text-decoration: underline;
+      text-decoration-color: rgb(41, 128, 185);
+      width: 150px;
+   }   
+
+#div_question{
+	/* border: 2px solid black; */
+	border-style: hidden;
+	box-shadow: 3px 3px 8px 1px darkslategray;
+	height: 160px;
+	width: 960px;
+	background: white;
+}
+
+#div_head{
+	color : white;
+	margin-bottom: 10px;
+}
+
+caption {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+.board_list {
+    border-radius: 10px;
+    background: steelblue;
+    width: 960px;
+    height: 240px;
+    text-align: left;
+    margin: 25px auto 70px auto;
+    padding: 20px;
+}
+
+
+.board_list_design{
+
+margin: 0 auto;
+
+text-align: center;
+
+padding-bottom: 25px;
+
+width: 1000px;
+}
+
+.board_list_design .head_board {
+    text-align: left;
+}
+
+.board_list_design .div-color {
+    border: 1px solid black;
+    width: 938px;
+    height: 700px;
+    text-align: left;
+    margin-top: 30px;
+    padding: 30px;
+    background : white;
+ }
+
+.board_list_design span{
+	
+	font-size: 14px;
+	color : gray;
+}
+
+
+.board_list .question_area{
+	color : white;
+}
+.board_list_design .head_board .title_area , .board_list_design .head_board .info_area{
+	font-weight: unset;
+	margin-top: 10px;
+	background: white;
+}
+
+
+.board_list_design .head_board .title_area{
+	width: 550px;
+	border-bottom: black;
+}
+	
+	
+
+.board_list tr {
+    border-bottom: 1px solid #ccc;
+}
+
+.board_list th,.board_list td {
+    padding: 10px;
+    font-size: 15px;
+}
+
+.board_list td {
+    text-align: center;
+}
+.board_list select{
+	width : 120px;
+	font-size: 14px;
+}
+.board_list span {
+	font-size: 10px;
+	color : gray;
+}
+#span1{
+	color : red;
+	font-size: 15px;
+}
+.board_list .tit {
+    text-align: left;
+}
+
+
+.board_list .btn{
+	height: 20px;
+	font-size: 13px;
+}
+
+.board_list .align_left{
+	text-align: left;
+	
+}
+
+
+.board_list .tit:hover {
+    text-decoration: underline;
+}
+
+#hr_line{
+	width: 1000px;
+	padding-left: 150px;
+}
+
+.btn{
+	width: 40px;
+	cursor: pointer;
+	border: 1px solid black;
+	border-radius: 5px;
+	transition: background-color 0.2s;
+}
+
+.btn_bottom{
+	text-align: right;
+	height : 30px;
+	margin-top: 16px;
+}
+.list_div {
+	/* margin-top: 10px; */
+	/* margin-bottom: 30px; */
+	margin: 10px 0;
+	/* text-align: center; */
+}
+.text_align_right{
+/* 	text-align: right; */
+	float: right;
+	 margin-right: 150px;
+}
+#img_div {
+	/* padding: 50px 0px; */
+}
+
+#img_div img {
+	width: 940px;
+	height: 550px;
+}
+
+.text_align_center{
+
+}
+
+/*가장 큰 div를 센터로 놓고 오른쪽으로 가야할 건 margin으로!*/
+
+
+.filebox label {
+  display: inline-block;
+  padding: .2em .50em;
+  color: #fff;
+  font-size: inherit;
+  line-height: normal;
+  vertical-align: middle;
+  background-color: rgb(41, 128, 185);
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: .25em;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+
+
+
+.button_center{
+	text-align : center;
+}
+
+.button_right {
+    text-align: right;
+   
+}
+
+.btn_list{
+	width: 30px;
+    height: 35px;
+    background: #ccc;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+#notice{
+	font-size: 12px;
+	padding-left: 15px;
+	padding-top: 35px;
+}
+.content{
+	border : none;
+	resize: none;
+	width: 920px;
+	height: 100px;
+	padding: 15px;
+	font-size : 15px;
+}
+.btn_list_go{
+	width: 60px;
+	height: 35px;
+	background: rgb(41, 128, 185);
+	color: white;
+	cursor: pointer;
+	border: none;
+	border-radius: 5px;
+	left:45%;
+	position: relative;
+}
+
+
+
+.text_align_right{
+	left:45%;
+}

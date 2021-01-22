@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+/* 메뉴 이름(공지사항) */
+#ment {
+	font-size: 30px;
+	font-weight: bold;
+	margin: 30px 30px 70px 30px;
+	text-decoration: underline;
+	text-decoration-color: rgb(41, 128, 185);
+}
+
+#write_all_div {
+	margin: 0px auto;
+}
+
+#write_div {
+	margin: 0px auto;
+}
+
+#write_table {
+	border-top: 3px solid rgb(41, 128, 185);
+	margin: 30px auto;
+	border-radius: 10px;
+	background: #eee;
+	padding: 30px;
+	width: 940px;
+	border-spacing: 20px;
+}
+
+.ment_box {
+	display: inline-block;
+	width: 100px;
+	height: 20px;
+	text-align: center;
+}
+
+#select_board {
+	width: 150px;
+	height: 30px;
+}
+
+#input_title {
+	width: 300px;
+	height: 23px;
+}
+
+/* file_div */
+#file_label {
+	display: inline-block;
+	padding: 1px 6px;
+	color: #fff;
+	font-size: inherit;
+	line-height: normal;
+	vertical-align: middle;
+	background-color: rgb(41, 128, 185);
+	cursor: pointer;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	-webkit-transition: background-color 0.2s;
+	transition: background-color 0.4s;
+}
+
+#file_label:hover {
+	background-color: red;
+}
+
+#file_label:active {
+	background-color: #367c36;
+}
+
+#file_input {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	border: 0;
+}
+
+#td_content {
+	vertical-align: text-top;
+}
+
+#write_contents {
+	resize: none;
+	text-overflow: ellipsis;
+	border: none;
+	border-radius: 3px;
+}
+
+#buttons_div {
+	text-align: center;
+	margin: 20px auto 40px auto;
+}
+
+#cancel_button {
+	border: none;
+	width: 60px;
+	height: 35px;
+	border-radius: 5px;
+	background: lightgray;
+	color: white;
+}
+
+#enrollment_button {
+	border: none;
+	width: 60px;
+	height: 35px;
+	border-radius: 5px;
+	background: rgb(41, 128, 185);
+	color: white;
+}
+
+.file_box label {
+  display: inline-block;
+  padding: 1px 6px;
+  width: 60px;
+  height: 23px;
+  color: #fff;
+  font-size: 13.7px;
+  line-height: normal;
+  vertical-align: middle;
+  background-color: rgb(41, 128, 185);
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.4s;
+  position: relative;
+  width: 65px;
+}
+
+.file_box label:hover {
+  background-color: skyblue;
+}
+
+.file_box label:active {
+  background-color: blue;
+}
+
+.file_box input[type="file"] {
+    /* position: absolute; */
+    width: 300px;
+   
+    padding: 0;
+    margin-left: -75px;
+    color: darkgray;
+    font-size: 12px;
+}

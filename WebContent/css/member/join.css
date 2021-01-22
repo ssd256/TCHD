@@ -1,0 +1,255 @@
+@charset "UTF-8";
+/* 회원가입 페이지 */
+#joinDiv{
+	text-align: center;
+}
+#joinDiv textarea{
+	resize: none;	
+	 padding: 30px;
+    line-height: 1.3;
+      margin-top: 30px;
+}
+#joinTitle{
+	color: #6f6f6f;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: left;
+	padding: 50px 10px  20px 10px;;
+}
+
+
+#joinCheck{
+	text-align: left;
+	font-size: 20px;
+	 margin: 30px 0 30px 170px;
+}
+#joinCheck input{
+	margin: 0px 10px;
+}
+.joinForm {
+	border-radius: 10px;
+	background-color: #EEE;
+	padding: 50px 50px 30px 50px;
+	 width: 900px;
+    margin: 0 auto 30px auto;
+    border-top: 3px solid rgb(41, 128, 185);
+}
+
+.joinForm input{
+	width: 200px;
+	padding:3px;
+}
+
+.joinForm input:focus{
+	border: none;
+	outline: 2px solid rgba(41, 128, 185, 0.5);
+}
+
+.joinForm table{
+	border-collapse: collapse;
+	margin: 0 auto;
+	
+}
+.joinForm td{
+	border-top: 1px solid #999999;
+}
+
+.joinForm tr, .joinForm td{
+	vertical-align: middle;
+	width: 200px;
+	height: 60px;
+}
+
+#form_title{
+	font-size: 15px;
+	text-align: left;
+	font-weight: bold;
+}
+
+#join_notice{
+	color: gray;
+	font-size: 13px;
+	
+}
+
+.joinForm span{
+	font-size: 10px;
+	letter-spacing: -1px;
+}
+
+.joinForm span#redDot{
+	color: red;
+	font-size: 16px;
+	
+}
+.joinForm  input {
+	height: 28px;
+	border-style: none;
+	margin-right: 5px;
+}
+
+#address_td{
+	border_top:none;
+}
+
+.joinForm  button {
+	width:104px;
+	height: 28px;
+	color: rgb(255,255,255);
+	background-color: rgb(41, 128, 185);
+	border-style: none;
+	margin-left: 5px;
+}
+.joinForm div{
+	margin: 0px 0px 25px 0px;
+	
+}
+
+#submit_tr {
+	text-align: center;
+}
+
+#submit_tr td{
+	border-bottom: none;
+}
+
+#top_tr td{
+	border-top: none;
+}
+
+#address_tr td{
+	border-top: none;
+}
+
+
+#select_tr input{
+	height: 13px;
+	width:13px;
+	
+}
+
+select{
+	width: 100px;
+	height: 28px;
+	border: none;
+	
+}
+
+#address_tr td{
+	padding: 0px;
+}
+
+
+
+
+#submit_tr button{
+	width: 200px;
+	height: 50px;
+	background-color: rgb(41, 128, 185);
+	color: rgb(255,255,255);
+	font-size: 16px;
+	border-style: none;
+	border-radius: 6px;
+	margin-top: 40px;
+}
+
+
+
+#joinForm_group{
+	display: none; 
+}
+
+
+#zoneCode, #mainAddress:hover{
+	cursor: default;
+	
+}
+/* 회원정보수정 */
+
+#updateDiv{
+	    margin: 0 auto;
+    text-align: center;
+      width: 700px;
+}
+
+#updateTitle{
+	font-size: 25px;
+    color: #333333;
+    font-weight: bold;
+    position: relative;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+
+
+#updateForm {
+	border-radius: 10px;
+	border-top: 3px solid rgb(41, 128, 185);
+	background-color: #EEE;
+	padding: 50px 100px 30px 100px;
+	 width: 600px;
+    margin: 0px auto 100px 350px;
+
+}
+
+#updateForm  input{
+	width: 200px;
+	
+}#updateForm input:focus{
+	border: none;
+	outline: 2px solid rgba(41, 128, 185, 0.5);
+}
+#updateForm  table{
+	border-collapse: collapse;
+	margin: 0 auto;
+	
+}
+#updateForm  td{
+	border-bottom: 1px solid #999999;
+}
+
+#updateForm  tr, #updateForm  td{
+	vertical-align: middle;
+	width: 200px;
+	height: 60px;
+}
+
+#updateForm .form_title{
+	font-size: 15px;
+	text-align: left;
+	font-weight: bold;
+}
+#info_span{
+	font-size: 12px;
+}
+
+#updateForm  input {
+	height: 28px;
+	border-style: none;
+	margin-right: 5px;
+	padding: 3px;
+}
+
+#address_td{
+	border_top:none;
+}
+
+#updateForm  button {
+	width:104px;
+	height: 28px;
+	color: rgb(255,255,255);
+	background-color: rgba(41, 128, 185, 0.8);
+	border-style: none;
+	margin-left: 5px;
+}
+#updateForm  div{
+	margin: 0px 0px 25px 0px;
+	
+}
+
+#updateForm #submit_tr td{
+	border-bottom: none;
+}
+

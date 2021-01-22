@@ -1,0 +1,109 @@
+@charset "UTF-8";
+	#article1{
+		float: left;
+		text-align: center;
+		width: 638px;
+		height: 470px;
+	}
+	#article1 .pet{
+		float: left;
+		width: 140px;
+		height: 220px;
+		margin: 0px 4px 5px 4px;
+		box-shadow: 2px 2px 5px;
+	}
+	.pet:hover{
+		cursor:pointer;
+	}
+	.pet img{
+	    width: 140px;
+	    height: 105px;
+	    }
+   	 .petContent{
+   	 	text-align: left;
+   	 	font-size: 13px;
+   	 	color: rgb(128, 128, 128);
+   	 	/* padding: 5px; */
+   	 }
+   	 .petContent .petName{
+   	 	font-weight: bold;
+   	 	font-size: 20px;
+   	 	margin-bottom: 11px;
+   	 }
+   	 
+	#article2{
+		margin-top: 50px;
+		text-align: center;
+	}
+	#article3{
+		margin: 20px 0;
+		text-align: center;
+	}
+	#notice{
+		margin: 10px 0px 0px 0px;
+		display: grid;
+	}
+	#notice tr{
+		height: 30px;
+		border-bottom: 1px solid #ccc;
+	}
+
+	#noticeDate{
+		text-align: center;
+	}
+	#noticeTitle{
+		padding: 6px 25px;
+	}
+	#noticeTitle2{
+		padding: 6px 25px;
+	}
+
+	#noticeTitle:hover{
+		text-decoration: underline;
+		cursor: pointer;
+	}
+	
+	.notice_th{
+		border-top: 3px solid rgb(41, 128, 185);
+		border-bottom: 1px solid #ccc;
+	}
+	table{
+		border-collapse : collapse;
+	}
+	
+	/*  */
+	
+	.filebox label {
+  display: inline-block;
+  padding: .5em .75em;
+  color: #fff;
+  font-size: inherit;
+  line-height: normal;
+  vertical-align: middle;
+  background-color: #5cb85c;
+  cursor: pointer;
+  border: 1px solid #4cae4c;
+  border-radius: .25em;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+
+.filebox label:hover {
+  background-color: #6ed36e;
+}
+
+.filebox label:active {
+  background-color: #367c36;
+}
+
+.filebox input[type="file"] {
+  position: absolute;
+   width: 100px;
+  height:  20px;
+  padding: 0;
+  /* margin: -1px; */
+  overflow: hidden; 
+  clip: rect(0, 0, 0, 0);
+  border: 0; 
+}
+	

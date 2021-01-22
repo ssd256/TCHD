@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* 좌측메뉴 */
+nav{
+	margin-top: 70px;
+	margin-left: 100px;
+}
+#pageNavi{
+		position: absolute;
+		font-size: 18px;
+		color: #333333;
+		text-decoration: none;
+}
+#pageNavi li{
+		padding: 10px 0px 10px 0px;
+		border-bottom: 1px solid #333333;;
+		font-weight: bold;
+		list-style: none;
+}
+#pageNavi li:first-child{
+	font-size: 25px;
+	padding: 0px 0px 10px 0px;
+}
+
+#pageNavi li a{
+	  text-decoration: none;    /* 밑줄 삭제 */
+      color: #333333;
+}
+#pageNavi li a:visit{
+	  text-decoration: none;    /* 밑줄 삭제 */
+      color: #333333;
+}
+#pageNavi li a:link{
+	  text-decoration: none;    /* 밑줄 삭제 */
+      color:#333333;
+}

@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+/* 페이지 이름 */
+#ment {
+	font-size: 30px;
+	font-weight: bold; /* 700; */
+	margin: 30px 30px 70px 30px;
+	text-decoration: underline;
+	text-decoration-color: rgb(41, 128, 185);
+}
+/* ment 제외한 전체 div*/
+#main_div {
+	margin: 0px auto;
+	width: 1000px;
+	text-align: center;
+}
+
+#apply_table {
+	margin: 0px auto;
+}
+
+/* STEP 버튼 */
+.steps {
+	width: 300px;
+	height: 100px;
+	border: none;
+	border-radius: 5px;
+	background: #aaa;
+	color: white;
+	font-size: 18px;
+	text-align: center;
+}
+
+.gt {
+	width: 50px;
+	font-size: 30px;
+	font-weight: bold;
+	color: rgb(192, 192, 192);
+}
+
+.apply_table_td {
+	padding: 40px 0px 40px 0px;
+}
+
+/* step1 */
+
+#price_control {
+	width: 200px; /* 선택박스 가로 크기 */
+	border: 1px solid #ccc; /* 선택박스 테두리 */
+	border-radius: 5px; /* 선택박스 모서리 */
+	padding: 10px; /* 선택박스 안에 공간크기 */
+	outline: none;
+}
+
+#input_direct {
+	width: 140px;
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+
+#input_direct:focus {
+	outline: 2px solid rgba(41, 128, 185, 0.5);
+}
+
+#input_direct::-webkit-outer-spin-button, 
+#input_direct::-webkit-inner-spin-button{
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+/* step2 */
+#input_info_div{
+	width: 900px;
+	margin: 0px auto 20px auto;
+	text-align: left;
+	font-weight: 700;
+}
+
+#input_info_table{
+	width: 900px;
+	margin: 0px auto;
+	border-collapse: collapse; /* 테두리 사이 간격 없애기 */
+}
+
+#input_info_table th{
+	width: 200px;
+	text-align: right;
+	font-weight: 700;
+	padding: 15px 30px 15px 0px;
+	background: #eee;
+	border-top: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+}
+
+#input_info_table td{
+	padding: 15px 0px 15px 20px;
+	border-top: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+	text-align: left;
+}
+
+.input_box{
+	width: 230px;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	outline: none;
+}
+
+/* step3 */
+#payment{
+	height: 100px;
+}
+
+#payment_check {
+	width: 20px;
+	height: 20px;
+}
+
+#payment_check span {
+	font-size: 17px;
+}
+
+/* 후원금액 */
+#total_price {
+	font-size: 25px;
+	font-weight: 400;
+	text-align: right;
+	padding: 30px 20px 30px 0px;
+	padding-right: 20px;
+	border-top: 1px solid #e0e0e0; /* 연회색 실선 */
+	border-bottom: 1px solid #e0e0e0;
+}
+
+#total_price_won {
+	font-size: 30px;
+	font-weight: 600;
+	color: rgb(41, 128, 185);
+}
+
+/* 이전, 다음, 신청 버튼 */
+#vol_content_footer {
+	padding: 30px; /* 다음 버튼 여백 */
+	text-align: center;
+}
+
+.buttons {
+	border: none;
+	border-radius: 5px;
+	background: rgb(41, 128, 185);
+	color: white;
+	cursor: pointer;
+	width: 150px;
+	padding: 10px;
+	font-size: 18px;
+	outline: none;
+}
+
+/* 로딩중 gif */
+#loading_div{
+	position: absolute;
+	left: 48%;
+	top: 63%;
+	background: none;
+}
+
+#loading_div img{
+	width: 60px;
+	heigh: 60px;
+}

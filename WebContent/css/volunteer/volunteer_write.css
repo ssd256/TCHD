@@ -1,0 +1,108 @@
+/* 페이지 이름 */
+.title {
+	font-size: 30px;
+	font-weight: bold; /* 700; */
+	margin: 30px 30px 70px 30px;
+	text-decoration: underline;
+	text-decoration-color: rgb(41, 128, 185);
+}
+/* 타이틀 제외한 전체 div*/
+.main_div {
+	margin-left: auto;
+	margin-right: auto;
+	/* border: 1px solid red; /* 임시 */
+}
+/* 아래 버튼을 제외한 서브 div*/
+/* sub_div 지움 */
+
+/* table 영역 div */
+.table_div {
+	margin: 0 auto;
+	text-align: center;
+	/* border: 1px solid orange; /* 임시 */
+}
+/* table */
+.board_table {
+	/* width: 1000px; */
+	margin: 0px auto 30px auto;
+	padding: 30px;
+	border-top: 3px solid rgb(41, 128, 185);
+	border-radius: 10px;
+	border-spacing: 20px;
+	background: #eee;
+	/* font-size: 15px; */
+}
+th {
+	width: 100px;
+}
+#input_title {
+	padding-left: 10px;
+}
+.adress{
+	padding-left: 10px;
+}
+#vomaxmember{
+	padding-left: 10px;
+}
+#textarea{
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.allbutton{
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	height: 20px;
+	font-size: 13px;
+}
+.adress{
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	height: 20px;
+	font-size: 13px;
+	width: 195px;
+}
+#adress_search{
+	border: none;
+	border-radius: 3px;
+	background: rgb(41, 128, 185);
+	color: white;
+	cursor: pointer;
+	width: 60px; height: 22px;
+}
+#textarea{
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	resize: none;
+	width: 800px; height: 250px;
+}
+#td_content{
+	vertical-align: text-top;
+}
+/* td들 왼쪽 정렬 */
+.board_table_td{
+	text-align: left;
+}
+/* 취소 등록 버튼 div */
+.no_ok_button{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.button_no{
+	border: none;
+	border-radius: 5px;
+	background: #eee;
+	color: white;
+	cursor: pointer;
+	width: 60px; height: 35px;
+}
+.button_ok{
+	border: none;
+	border-radius: 5px;
+	background: rgb(41, 128, 185);
+	color: white;
+	cursor: pointer;
+	width: 60px; height: 35px;
+}
+#star {
+	color: #ff9216;
+}

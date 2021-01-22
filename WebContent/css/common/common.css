@@ -1,0 +1,209 @@
+@charset "UTF-8";
+/* header와 footer 그리고 공통태그 */
+   .clear{
+      clear: both;
+   }
+   *{      /* 전체 태그 */
+      margin:0; 
+      padding:0; 
+      color: #333333;
+      font-family: 'Malgun Gothic';
+
+   }
+   #headDiv{
+      width:1300px;
+      margin: 0px auto;
+      
+   }
+   
+   #headDiv a:link{
+	   	text-decoration: none;
+	      color:#000;
+   }
+   #topBar{
+      font-size: 15px;
+      text-align: right;
+      padding-top: 5px;
+   	  margin-right: 15px;
+  
+   }
+   #topBar a{   
+      text-decoration: none;    /* 밑줄 삭제 */
+      color: #000;
+   }
+   #topBar a:link{
+      text-decoration: none;
+      color:#000;
+   }
+   #topBar a:visit{
+      text-decoration: none;
+      color: #000;
+   }
+   #topBar a:hover{
+      text-decoration: none;
+      color:#000;
+   }
+   
+   #topBar #a_logout{
+   	margin-left: 80px;
+   }
+   #topDiv{
+   	  width: 1300px;
+      height: 80px;
+      margin:50px auto;
+ 
+   }
+   #title{
+   	  width: 452px;
+/*    	  color: rgb(41, 128, 185); */
+/*    	  font-size: 45px; */
+/*    	  font-weight: bold; */
+   	  position: absolute;
+   }
+/*    #title a{ */
+/*  	  text-decoration: none;    밑줄 삭제 */
+/*        color: rgb(41, 128, 185); */
+/*    } */
+/*     #title a:link{ */
+/*  	  text-decoration: none;    밑줄 삭제 */
+/*  	   color: rgb(41, 128, 185); */
+/*    } */
+/*     #title a:visit{ */
+/*  	  text-decoration: none;    밑줄 삭제 */
+/*       color: rgb(41, 128, 185); */
+/*    } */
+/*     #title a:hover{ */
+/*  	  text-decoration: none;    밑줄 삭제 */
+/*  	  color: rgb(41, 128, 185); */
+/*    } */
+   
+   #title img{
+  	 	width: 550px;
+  	 	vertical-align: sub;
+  	}
+   
+   #navi{
+      width: 100%;
+      text-align: center;
+      position: relative;
+   }
+   #navi .naviDetail_ul{
+      position: absolute;
+      font-size: 25px;
+      font-weight: bold;
+      display: inline;
+      width: 700px;
+      margin-top: 30px;
+      left: 630px;
+   }
+   #navi .naviDetail_li{
+      float: left;
+      width: 130px;
+      list-style: none;
+      margin: 0px 3px;
+   }
+   .naviDetail_li a:hover{
+      cursor: default;
+   }
+   .naviDetail_ul li:hover{
+   	  cursor: pointer;
+   }
+   
+    .naviDetail_ul li li:hover{
+    	background: rgba(0, 191, 255, 0.1);
+    }
+   
+   footer{
+     background-color: rgb(224, 224, 224);
+     width: 100%;
+     margin-top: 20px;
+   }
+   #footDiv{
+      background-color: rgb(224, 224, 224);
+      width: 1300px;   /* 너비 꽉 채우기 */
+      height: 150px;
+      margin: 0px auto;
+      text-align: left;
+   }
+	.blank{
+		margin: 0px 10px;
+	}
+	#address{
+		margin-right: 60px;
+	}
+   
+	section{
+		margin: 0px auto;
+		width:1300px;
+		height: 100%;
+	}
+
+/* 탑버튼 */
+#topBtn{
+    position: fixed;
+    right: 24px;
+    bottom: 10px;
+    z-index: 20;
+    
+}
+
+#topBtn img{
+	width:45px;
+}
+#remoteDiv{
+	width: 56px;
+	position: fixed;
+	right: 45px;
+	top: 220px;
+}
+
+#remoteDiv img{
+	width: 80px;
+}
+
+/*   */
+.menuBar{
+	visibility: hidden;
+	width: 138px;
+	background-color: #ffffff;
+	list-style: none;
+	text-align: center;
+	font-size: 15px;
+	position: static;
+	margin-top: 7px;
+	border: 1px solid darkgray;
+	border-radius: 5px;
+}
+
+ul#menuBar1{
+	left: 848px;
+	top: 194px;
+}
+
+
+
+ul#menuBar2{
+	left: 900px; 
+	top: 137px;
+
+}
+
+ul#menuBar3{
+	left: 1000px; 
+	top: 137px;
+
+}
+
+ul#menuBar4{
+	left: 1100px; 
+	top: 137px;
+
+}
+
+.menuBar li{
+	/* border:1px solid #000; */
+	padding: 13px 20px;
+}
+.menuBar li a:link{
+	text-decoration: none;	
+}

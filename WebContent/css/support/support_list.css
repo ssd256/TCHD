@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/* 페이지 이름 */
+#ment {
+	font-size: 30px;
+	font-weight: bold; /* 700; */
+	margin: 30px 30px 70px 30px;
+	text-decoration: underline;
+	text-decoration-color: rgb(41, 128, 185);
+}
+/* ment 제외한 전체 div*/
+#main_div {
+	margin: 0px auto;
+	width: 1000px;
+}
+/* 월별 검색 */
+#select_option_div{
+	text-align:left;
+}
+.select_YM{
+	width: 80px;
+	height: 30px;
+	padding: 5px;
+	border-radius: 5px;
+	text-align: center;
+	outline: none;
+}
+#month{
+	margin-left: 20px;
+}
+#search_button{
+	width: 68px;
+    height: 30px;
+    background: rgb(41, 128, 185);
+    color: rgb(255,255,255);
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+/* 조회 table */
+#support_list_div{
+	margin: 20px auto;
+}
+
+#support_list_table {
+	width: 1000px;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+#support_list_table th {
+	height: 40px;
+	background: rgb(41, 128, 185);
+	font-size: 18px;
+	color: white;
+	border-right: 2px solid white;
+	width: 33%;
+}
+
+#support_list_table td {
+	height: 40px;
+	border-bottom: 1px solid lightgray;
+}
+/* 월별 총 합계 div */
+#total_price {
+	font-size: 25px;
+	font-weight: 400;
+	text-align: right;
+	margin-bottom: 60px;
+	padding-right: 20px;
+}
+
+#total_price_won {
+	font-size: 30px;
+	font-weight: 600;
+	color: rgb(41, 128, 185);
+}
+/* 페이징 */
+.paging {
+	margin: 20px;
+	text-align: center;
+}
+
+.paging a {
+	display: inline-block;
+	margin-left: 10px;
+	padding: 5px 10px;
+	border-radius: 100px;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.before, .after {
+	border: 1px solid #eee;
+	background: #eee;
+}
+
+.num {
+	border: 1px solid rgb(41, 128, 185);
+	font-weight: 600;
+	color: rgb(41, 128, 185);
+}
+
+.choosen {
+	border: 1px solid rgb(41, 128, 185);
+	background: rgb(41, 128, 185);
+	color: #fff;
+}

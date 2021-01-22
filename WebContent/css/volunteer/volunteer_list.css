@@ -1,0 +1,118 @@
+@charset "UTF-8";
+/* 페이지 이름 */
+.title {
+	font-size: 30px;
+	font-weight: bold; /* 700; */
+	margin: 30px 30px 20px 30px;
+	text-decoration: underline;
+	text-decoration-color: rgb(41, 128, 185);
+}
+/* 타이틀 제외한 전체 div*/
+.main_div {
+	margin-left: auto; margin-right: auto;
+	/* border: 1px solid black; /* 임시 */
+}
+/* 아래 버튼을 제외한 서브 div*/
+.sub_div {
+	/* border: 1px solid black; /* 임시 */
+}
+/* 검색 라인 */
+.list_search {
+	/* margin-top: 30px; margin-bottom: 20px; */
+	padding: 0px;
+	width: 1000px;
+	margin: 0px auto 20px auto;
+	height: 30px;
+	text-align: right;
+	/* margin-right: 70px; */
+	/* border: 1px solid red; /* 임시 */
+}
+#search_select{
+	height: 28px;
+}
+#search_input {
+	padding-left: 10px;
+	border: 1px solid black;
+	border-radius: 3px;
+	width: 200px; height: 27px;
+}
+#search_button {
+	/* 버튼 공통 CSS 4개*/
+	border: none;
+	border-radius: 5px;
+	background: rgb(41, 128, 185);
+	color: white;
+	cursor: pointer;
+	width: 50px; height: 30px;
+}
+/* 테이블 div */
+.table_div {
+	margin: 0px auto 0px auto;
+	/* border: 1px solid black; /* 임시 */
+}
+.table_div th, .table_div td {
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+}
+/* 테이블 */
+#list_table {
+	border-top: 3px solid rgb(41, 128, 185);
+	border-collapse: collapse; /* 셀 테두리 두개인데 하나로 합치기 */
+	background: white;
+	margin: 0px auto;
+	width: 1000px;
+	text-align: center;
+}
+#deadline_Y{
+	color: #ccc;
+	
+}
+.deadY td{
+	color: #ccc;
+}
+/* 테이블에서 제목 왼쪽 정렬 */
+#tit {
+	text-align: left;
+}
+.wrtie_button_div {
+	text-align: right;
+	margin: 10px 150px 60px 150px;
+}
+/* 글쓰기 버튼 라인 */
+#write_button {
+	border: none;
+	border-radius: 5px;
+	width: 60px; height: 35px;
+	background: rgb(41, 128, 185);
+	color: white;
+	cursor: pointer;
+}
+/* 이전,다음 버튼 영역 */
+.paging {
+	text-align: center;
+	margin: 20px 20px 40px 20px;
+	font-size: 0;
+}
+/* 이전, 다음 버튼 그 자체. */
+.paging a {
+	display: inline-block;
+	margin-left: 10px;
+	padding: 5px 10px;
+	border-radius: 100px;
+	font-size: 12px;
+	text-decoration: none;
+	border: 1px solid red;
+}
+.paging a.bt {
+	border: 1px solid #eee;
+	background: #eee;
+}
+.paging a.num {
+	border: 1px solid rgb(41, 128, 185);
+	color: rgb(41, 128, 185);
+	font-weight: 600;	
+}
+.paging a.num.on {
+	background: rgb(41, 128, 185);
+	color: white;
+}

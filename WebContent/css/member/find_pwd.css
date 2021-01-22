@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+/* 비밀번호 찾기 화면 전체 div */
+#pw_find_div {
+	margin: 50px 300px;
+}
+/* 아이디 찾기, 비밀번호 찾기 div */
+#find_button_div {
+	padding-left: 100px;
+}
+/* 아이디 찾기, 비밀번호 찾기 버튼 */
+.find_button {
+	background: #eee;
+	color: black;
+	border: none;
+	border-radius: 10px;
+	width: 120px;
+	height: 40px;
+	font-size: 14px;
+	font-weight: bold;
+	outline: none;
+	cursor: pointer;
+}
+/* 안내 멘트(비밀번호가 기억나지 않으세요?) */
+#pw_find_message {
+	text-align: left;
+	font-size: 13px;
+	padding-left: 100px;
+}
+/* 버튼 아래 문구(비밀번호 찾기) */
+#pw_find_title {
+	font-size: 15px;
+	font-weight: bold;
+}
+/* 입력창 div(아이디) */
+#input_div {
+	margin: 0px 100px;
+	padding: 40px;
+	border: 1px solid lightgray;
+	border-radius: 10px;
+	text-align: center;
+}
+/* 입력창 */
+.input {
+	width: 400px;
+	height: 30px;
+	border: 0.5px solid lightgray;
+	font-size: 15px;
+	padding: 10px;
+}
+.input:focus {
+   border: none;
+   outline: 2px solid rgba(41, 128, 185, 0.5);
+}
+/* 입력 버튼 div */
+#input_button_div {
+	text-align: center;
+}
+/* 입력 버튼 */
+#input_button {
+	width: 150px;
+	height: 40px;
+	border: none;
+	background: rgba(41, 128, 185, 0.8);
+	color: white;
+	border-radius: 10px;
+	font-size: 17px;
+	outline: none;
+	cursor: pointer;
+}
+/* 로딩중 gif */
+#loading_div{
+	position: absolute;
+	left: 48%;
+	top: 56%;
+	background: none;
+}
+#loading_div img{
+	width: 60px;
+	heigh: 60px;
+}

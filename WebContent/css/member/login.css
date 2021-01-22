@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+/* 로그인 화면 전체 div */
+#login_div {
+	margin: 100px 200px 100px 170px; /* 상 하 좌 우 */
+	text-align: center;
+}
+/* Login */
+#login_title {
+	width: 545px;
+	text-align: right;
+	font-size: 40px;
+	font-weight: bold;
+	cursor: default; /* 삼각형에 꼬리달린 모양 */
+}
+/* 입력창 옆 메세지(아이디, 비밀번호) */
+.login_label {
+	font-size: 20px;
+}
+/* 입력창 */
+.login_input {
+	width: 400px;
+	height: 30px;
+	padding: 10px;
+	font-size: 15px;
+}
+.login_input:focus {
+	border: none;
+	outline: 2px solid rgba(41, 128, 185, 0.5);
+}
+/* capslock 상태 */
+#capslock{
+	visibility: hidden;
+	  margin: 10px 0px 0px 90px;
+}
+/* 아이디 찾기, 비밀번호 찾기 */
+#login_find_div {
+	padding-left: 300px;
+	font-size: 15px;
+}
+/* 로그인 버튼 div */
+#login_button_div {
+	width: 620px;
+	text-align: right;
+}
+/* 로그인 버튼 */
+#login_button {
+	width: 250px;
+	height: 60px;
+	border: none;
+	background: rgba(41, 128, 185, 0.8);
+	color: white;
+	border-radius: 10px;
+	font-size: 20px;
+	cursor: pointer; /* 엄지랑 검지만 핀 손모양 */
+	outline: none;
+}
+/* 회원가입 div */
+#login_signUp_div {
+	padding-left: 270px;
+	font-size: 15px;
+}

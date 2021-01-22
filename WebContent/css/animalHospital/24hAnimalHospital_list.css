@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+/* 메뉴 이름(24시 동물병원) */
+#ment {
+	font-size: 30px;
+	font-weight: bold;
+	margin: 30px 30px 10px 30px;
+	text-decoration: underline;
+	text-decoration-color: rgb(41, 128, 185);
+}
+
+/* 안내 멘트, 지역 선택 div */
+#info_local_div {
+	margin: 10px 150px 0px 30px;
+}
+/* 안내 멘트(지역을 선택하면 ~) */
+#info {
+	font-size: 15px;
+	width: 400px;
+	float: left;
+}
+/* 지역 선택 테이블 */
+#local_select_table {
+	width: 720px;
+}
+
+#local_select_table td {
+	border: none;
+	border-radius: 5px;
+	text-align: center;
+	font-weight: 700;
+	width: 50px;
+	height: 40px;
+	background: #eee;
+}
+/* 출력되는 병원 목록의 개수 div */
+#list_size{
+	width: 1000px;
+	text-align: right;
+	margin: 10px auto 3px auto;
+}
+#list_size span{
+	color: #777;
+	font-size: 14px;
+	padding-right: 5px;
+}
+/* 동물병원 목록 div */
+#animal_hospital_div {
+	margin: 0px auto;
+}
+/* 동물병원 목록 테이블 */
+#animal_hospital_table {
+	width: 1000px;
+	text-align: center;
+	margin: 0px auto;
+	border-collapse: collapse;
+}
+
+#animal_hospital_table th {
+	height: 40px;
+	background: rgb(41, 128, 185);
+	font-size: 18px;
+	color: white;
+	border-right: 2px solid white;
+}
+
+#animal_hospital_table td {
+	height: 40px;
+	border-bottom: 1px solid lightgray;
+}
+/* 페이징 */
+.paging {
+	margin: 20px 20px 40px 20px;
+	text-align: center;
+}
+
+.paging a {
+	display: inline-block;
+	margin-left: 10px;
+	padding: 5px 10px;
+	border-radius: 100px;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.before, .after {
+	border: 1px solid #eee;
+	background: #eee;
+}
+
+.num {
+	border: 1px solid rgb(41, 128, 185);
+	font-weight: 600;
+	color: rgb(41, 128, 185);
+}
+
+.choosen {
+	border: 1px solid rgb(41, 128, 185);
+	background: rgb(41, 128, 185);
+	color: #fff;
+}
